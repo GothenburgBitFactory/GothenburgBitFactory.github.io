@@ -43,15 +43,15 @@ The second rule colors the word \'red\' red.
 The third puts blank lines around any line containing the word \'emphasize\'.
 The fourth rule suppresses any line containing the word \'ignore\'.
 
-![](/img/clog/action1.png)
+![](img/clog/action1.png)
 
 Here is a sample file that triggers every rule, so we should see the actions of all rules taken.
 Can you predict what will happen?
 
-![](/img/clog/action2.png)
+![](img/clog/action2.png)
 
 Here is the output:
 
-![](/img/clog/action3.png)
+![](img/clog/action3.png)
 
 This shows rules precedence also - the second rule finds the word \'red\' in the blue line.

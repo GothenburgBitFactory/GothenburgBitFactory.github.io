@@ -9,23 +9,23 @@ menu: main
 
 ## Getting Started
 
-- [What is Clog?](what)
-- [How does Clog work?](how)
-- [Download and build the tarball](download)
-- [Clone the code repository and build the development snapshot](clone)
+- [What is Clog?](clog/docs/what)
+- [How does Clog work?](clog/docs/how)
+- [Download and build the tarball](clog/docs/download)
+- [Clone the code repository and build the development snapshot](clog/docs/clone)
 
 ## Usage
 
-- [Getting Help](help)
-- [Setup](setup)
-- [Rule Syntax](syntax)
-- [Rule Sections](sections)
-- [Rule Patterns](patterns)
-- [Rule Actions](actions)
-- [Clog Options](options)
-- [Color](color)
+- [Getting Help](clog/docs/help)
+- [Setup](clog/docs/setup)
+- [Rule Syntax](clog/docs/syntax)
+- [Rule Sections](clog/docs/sections)
+- [Rule Patterns](clog/docs/patterns)
+- [Rule Actions](clog/docs/actions)
+- [Clog Options](clog/docs/options)
+- [Color](clog/docs/color)
 
 ## Example Rule Sets
 
-- [Syslog](example_syslog)
-- [Apache](example_apache)
+- [Syslog](clog/docs/example_syslog)
+- [Apache](clog/docs/example_apache)

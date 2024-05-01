@@ -10,7 +10,7 @@ If a rules belongs to the `default` section, then it applies when no section is 
 
 Here is an example rule file, containing two rules:
 
-![](/img/clog/section1.png)
+![](img/clog/section1.png)
 
 The first rule is in the \'`default`\' section, and looks for the word \'red\', and colors it red.
 The second rule is in the \'`special`\' section, and also looks for the word \'red\', and colors it as white on a red background.
@@ -18,7 +18,7 @@ The second rule is in the \'`special`\' section, and also looks for the word \'r
 Without the difference in sections, these rules conflict.
 Here is a demonstration of these rules being used:
 
-![](/img/clog/section2.png)
+![](img/clog/section2.png)
 
 Clog is invoked four times.
 In the first command, no section is specified, so the \'`default`\' section is used, and you can see that the word \'red\' in the input is colored red.
@@ -34,4 +34,4 @@ Both rules apply, but because the \'`special`\' section is specified *last*, it 
 
 When the order of sections is reversed, the other rule has precedence.
 
-![](/img/clog/section3.png)
+![](img/clog/section3.png)

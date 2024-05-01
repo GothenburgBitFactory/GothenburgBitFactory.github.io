@@ -32,7 +32,7 @@ This rule is in the \'something\' section, the pattern is \'severe\', and the ac
 Pattern \'severe\' should probably be more restrictive, because it will also match words like \'persevered\', but that is optional.
 
 Full 16- and 256-color support is included, for the colorization of the log entries.
-See [Color Specification](/clog/docs/color) for full details.
+See [Color Specification](clog/docs/color) for full details.
 
 Instead of coloring the whole line, specifying \'match\' instead will only color the parts of the line that match.
 

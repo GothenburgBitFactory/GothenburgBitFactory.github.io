@@ -16,23 +16,23 @@ You can use this option to select from several different rule files.
 When the `--date` option is specified, the current date in the form `YYYY-MM-DD` is written before every line.
 Using this rule set:
 
-![](/img/clog/option1.png)
+![](img/clog/option1.png)
 
 Then applying it to this sample input (which contains no matches):
 
-![](/img/clog/option2.png)
+![](img/clog/option2.png)
 
 This is the result:
 
-![](/img/clog/option3.png)
+![](img/clog/option3.png)
 
 ## The `--time` Option
 
 Similarly, when the `--time` option is used, the current time, in the form `HH:MM:SS` is written before every line.
 Here is an example:
 
-![](/img/clog/option4.png)
+![](img/clog/option4.png)
 
 Note that both `--date` and `--time` can be specified, yielding a complete timestamp:
 
-![](/img/clog/option5.png)
+![](img/clog/option5.png)

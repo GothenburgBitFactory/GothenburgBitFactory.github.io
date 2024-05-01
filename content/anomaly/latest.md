@@ -1,6 +1,6 @@
 ---
 layout: plain
 aliases:
-    - /latest/anomaly
+    - latest/anomaly
 ---
 {{< latest_version anomaly >}}

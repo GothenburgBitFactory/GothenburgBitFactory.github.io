@@ -32,7 +32,7 @@ black, red, blue, green, magenta, cyan, yellow, white
 
 Shown here used as foreground and background colors:
 
-![](/img/clog/color1.png)
+![](img/clog/color1.png)
 
 Foreground color (for text) is simply specified as one of the above colors, or not specified at all to use the default terminal text color.
 
@@ -45,7 +45,7 @@ green on yellow
 on yellow
 ```
 
-![](/img/clog/color2.png)
+![](img/clog/color2.png)
 
 These colors can be modified further, by making the foreground `bold`, or by making the background `bright`.
 Some examples:
@@ -98,14 +98,14 @@ color2
 color255
 ```
 
-![](/img/clog/color3.png)
+![](img/clog/color3.png)
 
 This gives you access to all 256 colors, but doesn\'t help you much.
 This range is a combination of 8 basic colors (color0 - color7), then 8 brighter variations (color8 - color15).
 Then a block of 216 colors (color16 - color231).
 Then a block of 24 gray colors (color232 - color255).
 
-![](/img/clog/color4.png)
+![](img/clog/color4.png)
 
 The large block of 216 colors (6x6x6 = 216) represents a color cube, which can be addressed via RGB values from 0 to 5 for each component color.
 A value of 0 means none of this component color, and a value of 5 means the most intense component color.
@@ -148,7 +148,7 @@ All colors in the 6th square have a red value of 5.
 Within each square, blue ranges from 0 to 5 left to right, and within each square green ranges from 0 to 5, top to bottom.
 This scheme takes some getting used to.
 
-![](/img/clog/color5.png)
+![](img/clog/color5.png)
 
 The block of 24 gray colors can also be accessed as gray0 - gray23, in a continuous ramp from black to white.
 

@@ -20,10 +20,10 @@ It maintains a task list, allowing you to add/remove, and otherwise manipulate y
 Taskwarrior has a rich set of subcommands that allow you to do sophisticated things.
 You'll find it has customizable reports, charts, GTD features, device syncing, documentation, extensions, themes, holiday files and much more.
 
-* [Performance Testing](/task/performance)
-* [Talks](talks) given at UBUCON
+* [Performance Testing](task/performance)
+* [Talks](task/talks) given at UBUCON
 * [RFCs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/)
-* [What is the latest version?](/task/latest)
+* [What is the latest version?](task/latest)
 * [Future plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/plans.md)
 * [Download](https://taskwarrior.org/download)
 

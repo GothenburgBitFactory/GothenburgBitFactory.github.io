@@ -157,7 +157,7 @@ img {
   padding-left: 12px;
 }
 .navbar-brand::before {
-  content: url(/img/gbf.png);
+  content: url(../img/gbf.png);
   margin-left: -18px;
   margin-top: 2px;
   position: absolute;

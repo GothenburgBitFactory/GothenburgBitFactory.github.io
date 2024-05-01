@@ -42,4 +42,4 @@ $ sudo make install
 
 ## Submitting a Patch
 
-[See here for details](/clog/docs/clone/#submitting-a-patch).
+[See here for details](clog/docs/clone/#submitting-a-patch).

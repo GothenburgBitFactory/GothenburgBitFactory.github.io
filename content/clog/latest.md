@@ -1,6 +1,6 @@
 ---
 layout: plain
 aliases:
-    - /latest/clog
+    - latest/clog
 ---
 {{< latest_version clog >}}

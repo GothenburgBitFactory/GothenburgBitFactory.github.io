@@ -33,4 +33,4 @@ If a program has a lengthy iterative operation, it may benefit from using vramst
 
 ## Command Usage
 
-![Vramsteg command usage](/img/vramsteg.png)
+![Vramsteg command usage](img/vramsteg.png)
