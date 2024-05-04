@@ -39,7 +39,6 @@ Since 2006, Taskwarrior has been used in the development of ... Taskwarrior.
 Many subsequent releases have been made.
 Taskwarrior has been incorporated into almost all Linux distros and Cygwin, gained man pages, online documentation, and a bug list.
 Hundreds of bugs and features have been addressed, by over a hundred contributors.
-There is an active IRC channel and forum.
 
 ## Testing
 
