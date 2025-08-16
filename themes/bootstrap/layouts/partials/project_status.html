@@ -8,5 +8,5 @@
   {{ else }}
     {{ $msg = printf "This project is <b>%s</b>." (index $release "status") }}
   {{ end }}
-  {{ partial "message_box.html" (dict "type" "warning" "icon" "bi-exclamation-triangle-fill" "heading" "Notice:" "message" $msg) }}
+  {{ partial "message_box.html" (dict "type" "warning" "icon" "bi-exclamation-triangle-fill" "message" $msg) }}
 {{ end }}
