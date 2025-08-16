@@ -12,6 +12,8 @@ aliases:
 
 # Clog
 
+{{< project_status clog >}}
+
 Clog is a colorized log tail utility.
 
 {{< project_facts clog >}}

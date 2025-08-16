@@ -11,6 +11,8 @@ aliases:
 ---
 # Vramsteg
 
+{{< project_status vramsteg >}}
+
 Vramsteg, from the Swedish framsteg (progress), is a CLI progress bar that can be used from any script language.
 It supports color, labels, percentage completion, elapsed time and estimates.
 It is used in our test suites.

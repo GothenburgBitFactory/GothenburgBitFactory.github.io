@@ -11,6 +11,8 @@ aliases:
 ---
 # Taskshell
 
+{{< project_status tasksh >}}
+
 Taskshell is a shell command that wraps Taskwarrior commands.
 
 {{< project_facts tasksh >}}

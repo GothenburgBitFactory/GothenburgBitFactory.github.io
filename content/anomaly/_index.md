@@ -11,6 +11,8 @@ aliases:
 ---
 # Anomaly
 
+{{< project_status anomaly >}}
+
 Anomaly can detect anomalous data in a numeric stream.
 
 {{< project_facts anomaly >}}

@@ -9,6 +9,8 @@ menu: main
 ---
 # Vitapi
 
+{{< project_status vitapi >}}
+
 Vitapi (it started as an acronym) is a lightweight, easy to use, and above all, simple alternative to ncurses, without the legacy support, and without complex features.
 It targets mostly modern xterm capabilities, supports 256 colors, the mouse, and a nice powerful color model.
 It provides a C API, for maximum utility.

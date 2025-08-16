@@ -11,6 +11,8 @@ menu: main
 
 # Holidata
 
+{{< project_status holidata >}}
+
 Holidata is a utility for algorithmically producing holiday dates for a given locale and year.
 
 {{< project_facts holidata >}}

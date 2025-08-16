@@ -11,6 +11,8 @@ aliases:
     - /projects/timewarrior
 ---
 # Timewarrior
+
+{{< project_status timew >}}
  
 Timewarrior is a command-line time tracker.
 
