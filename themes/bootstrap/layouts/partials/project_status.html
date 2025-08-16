@@ -1,7 +1,9 @@
 {{ $release := index $.Site.Data ( .File.Dir | replaceRE "/$" "" ) }}
 {{ if and $release (ne (index $release "status") "active") }}
   {{ $msg := "" }}
-  {{ if eq (index $release "status") "archived" }}
+  {{ if isset $release "message" }}
+    {{ $msg = index $release "message" }}
+  {{ else if eq (index $release "status") "archived" }}
     {{ $msg = "This project is <b>archived</b>. It is no longer maintained and will not receive updates." }}
   {{ else if eq (index $release "status") "unmaintained" }}
     {{ $msg = "This project currently has <b>no active maintainer</b>. Community support may be limited and updates may be infrequent." }}
