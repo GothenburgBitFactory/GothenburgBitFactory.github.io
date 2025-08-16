@@ -1,0 +1,14 @@
+{{/*
+  Usage: {{ partial "message_box.html" (dict "type" "warning" "icon" "bi-exclamation-triangle-fill" "heading" "Notice:" "message" "Your message here.") }}
+  type: Bootstrap alert type (warning, info, danger, success)
+  icon: Bootstrap icon class
+  heading: Heading text
+  message: Message body (HTML allowed)
+*/}}
+<div class="alert alert-{{ .type }}" role="alert">
+  <strong class="alert-heading">
+    {{ if .icon }}<i class="bi {{ .icon }}"></i>{{ end }}
+    {{ .heading }}
+  </strong>
+  <span>{{ .message | safeHTML }}</span>
+</div>

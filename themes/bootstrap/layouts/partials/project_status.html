@@ -1,16 +1,12 @@
 {{ $release := index $.Site.Data ( .File.Dir | replaceRE "/$" "" ) }}
 {{ if and $release (ne (index $release "status") "active") }}
-  <div class="alert alert-warning" style="margin-bottom: 20px;">
-    <strong>Notice:</strong>
-    {{ if eq (index $release "status") "archived" }}
-      This project is <b>archived</b>. It is no longer maintained and will not receive updates.
-      <span class="badge badge-warning" style="background-color: #ffc107; color: #212529; margin-left: 8px;">Archived</span>
-    {{ else if eq (index $release "status") "unmaintained" }}
-      This project currently has <b>no active maintainer</b>. Community support may be limited and updates may be infrequent.
-      <span class="badge badge-warning" style="background-color: #ffc107; color: #212529; margin-left: 8px;">Unmaintained</span>
-    {{ else }}
-      This project is <b>{{ index $release "status" }}</b>.
-      <span class="badge badge-warning" style="background-color: #ffc107; color: #212529; margin-left: 8px;">{{ index $release "status" | title }}</span>
-    {{ end }}
-  </div>
+  {{ $msg := "" }}
+  {{ if eq (index $release "status") "archived" }}
+    {{ $msg = "This project is <b>archived</b>. It is no longer maintained and will not receive updates." }}
+  {{ else if eq (index $release "status") "unmaintained" }}
+    {{ $msg = "This project currently has <b>no active maintainer</b>. Community support may be limited and updates may be infrequent." }}
+  {{ else }}
+    {{ $msg = printf "This project is <b>%s</b>." (index $release "status") }}
+  {{ end }}
+  {{ partial "message_box.html" (dict "type" "warning" "icon" "bi-exclamation-triangle-fill" "heading" "Notice:" "message" $msg) }}
 {{ end }}

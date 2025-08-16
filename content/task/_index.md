@@ -12,8 +12,6 @@ aliases:
 ---
 # Taskwarrior
 
-{{< project_status task >}}
-
 Taskwarrior is a command-line todo list manager.
 
 {{< project_facts task >}}
