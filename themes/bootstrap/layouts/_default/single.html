@@ -4,6 +4,12 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8 doc-main">
+        {{ $release := index $.Site.Data ( .File.Dir | replaceRE "/$" "" ) }}
+        {{ if and $release (eq (index $release "status") "unmaintained") }}
+        <div class="alert alert-warning" style="margin-bottom: 20px;">
+          <strong>Notice:</strong> This project currently has <b>no active maintainer</b>. Community support may be limited and updates may be infrequent.
+        </div>
+        {{ end }}
         <article>
           <section>
             {{ .Content }}
