@@ -13,9 +13,9 @@
       <h3>
         <a href="{{ $project.RelPermalink }}">{{ $project.Title }}</a>
         {{ if $release }}<small><span class="label label-success">{{ index $release "version" }}</span></small>{{ end }}
-          {{ if and $release (eq (index $release "status") "unmaintained") }}
-            <span class="badge badge-warning" style="background-color: #ffc107; color: #212529; margin-left: 8px;">No Active Maintainer</span>
-          {{ end }}
+        {{ if and $release (ne (index $release "status") "active") }}
+        <small><span class="label label-warning">{{ index $release "status" }}</span></small>
+        {{ end }}
       </h3>
       {{ if $release }}
       <p>
