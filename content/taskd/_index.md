@@ -1,6 +1,6 @@
 ---
 title: "Taskserver"
-lang: en
+language: en
 layout: single
 description: "A lightweight, secure server providing multi-user, multi-client access to task data"
 source: "https://github.com/GothenburgBitFactory/taskserver"

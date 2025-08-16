@@ -1,6 +1,6 @@
 ---
 title: "Taskshell"
-lang: en
+language: en
 layout: single
 description: "A shell command that wraps Taskwarrior commands."
 source: "https://github.com/GothenburgBitFactory/taskshell"

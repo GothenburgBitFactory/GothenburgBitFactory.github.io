@@ -1,6 +1,6 @@
 ---
 title: "Docs"
-lang: en
+language: en
 layout: single
 menu: main
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Clog"
-lang: en
+language: en
 layout: single
 description: "A colorized log tail utility."
 source: "https://github.com/GothenburgBitFactory/clog"
