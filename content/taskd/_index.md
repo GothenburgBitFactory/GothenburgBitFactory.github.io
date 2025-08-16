@@ -4,7 +4,7 @@ language: en
 layout: single
 description: "A lightweight, secure server providing multi-user, multi-client access to task data"
 source: "https://github.com/GothenburgBitFactory/taskserver"
-rank: 161
+rank: 300
 menu: main
 aliases:
     - /projects/taskd

@@ -4,7 +4,7 @@ language: en
 layout: single
 description: "A CLI progress bar that can be used from any script language."
 source: "https://github.com/GothenburgBitFactory/vramsteg"
-rank: 3
+rank: 20
 menu: main
 aliases:
     - /projects/vramsteg

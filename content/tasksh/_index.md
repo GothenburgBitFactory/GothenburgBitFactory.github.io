@@ -4,7 +4,7 @@ language: en
 layout: single
 description: "A shell command that wraps Taskwarrior commands."
 source: "https://github.com/GothenburgBitFactory/taskshell"
-rank: 45
+rank: 200
 menu: main
 aliases:
     - /projects/tasksh
