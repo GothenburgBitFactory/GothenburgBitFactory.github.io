@@ -5,7 +5,6 @@ layout: single
 description: "A data anomaly detection utility. "
 source: "https://github.com/GothenburgBitFactory/anomaly"
 rank: 10
-status: unmaintained
 menu: main
 aliases:
     - /projects/anomaly

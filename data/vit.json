@@ -1,5 +1,6 @@
 {
   "version": "2.2.0",
   "name": "vit-2.2.0",
-  "url": "https://github.com/vit-project/vit/archive/refs/tags/v2.2.0.tar.gz"
+  "url": "https://github.com/vit-project/vit/archive/refs/tags/v2.2.0.tar.gz",
+  "status": "unmaintained"
 }

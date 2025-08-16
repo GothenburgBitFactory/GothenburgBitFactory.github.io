@@ -5,7 +5,6 @@ layout: single
 description: "A lightweight, secure server providing multi-user, multi-client access to task data"
 source: "https://github.com/GothenburgBitFactory/taskserver"
 rank: 300
-status: archived
 menu: main
 aliases:
     - /projects/taskd

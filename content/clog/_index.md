@@ -5,7 +5,6 @@ layout: single
 description: "A colorized log tail utility."
 source: "https://github.com/GothenburgBitFactory/clog"
 rank: 30
-status: unmaintained
 menu: main
 aliases:
     - /projects/clog

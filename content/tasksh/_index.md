@@ -5,7 +5,6 @@ layout: single
 description: "A shell command that wraps Taskwarrior commands."
 source: "https://github.com/GothenburgBitFactory/taskshell"
 rank: 200
-status: unmaintained
 menu: main
 aliases:
     - /projects/tasksh
