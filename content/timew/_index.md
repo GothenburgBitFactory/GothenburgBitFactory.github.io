@@ -3,8 +3,8 @@ title: "Timewarrior"
 language: en
 layout: single
 description: "A command line time-tracking utility for use as a standalone tool, or integrated with Taskwarrior."
-homepage: "https://timewarrior.net"
 source: "https://github.com/GothenburgBitFactory/timewarrior"
+homepage: "https://timewarrior.net"
 rank: 2000
 menu: main
 aliases:

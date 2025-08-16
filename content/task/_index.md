@@ -3,8 +3,8 @@ title: "Taskwarrior"
 language: en
 layout: single
 description: "A command-line todo list manager."
-homepage: "https://taskwarrior.org"
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
+homepage: "https://taskwarrior.org"
 rank: 3000
 menu: main
 aliases:
