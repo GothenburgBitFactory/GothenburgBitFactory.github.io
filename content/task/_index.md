@@ -6,6 +6,7 @@ description: "A command-line todo list manager."
 source: "https://github.com/GothenburgBitFactory/taskwarrior"
 homepage: "https://taskwarrior.org"
 rank: 3000
+status: active
 menu: main
 aliases:
     - /projects/taskwarrior
