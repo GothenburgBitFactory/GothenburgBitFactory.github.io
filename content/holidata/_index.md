@@ -1,6 +1,6 @@
 ---
 title: "Holidata"
-lang: en
+language: en
 layout: single
 description: "A holiday calculation utility."
 source: "https://github.com/GothenburgBitFactory/holidata"

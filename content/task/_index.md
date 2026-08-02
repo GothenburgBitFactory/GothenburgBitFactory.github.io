@@ -1,6 +1,6 @@
 ---
 title: "Taskwarrior"
-lang: en
+language: en
 layout: single
 description: "A command-line todo list manager."
 homepage: "https://taskwarrior.org"

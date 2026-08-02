@@ -1,6 +1,6 @@
 ---
 title: "Anomaly"
-lang: en
+language: en
 layout: single
 description: "A data anomaly detection utility. "
 source: "https://github.com/GothenburgBitFactory/anomaly"

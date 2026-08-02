@@ -1,6 +1,6 @@
 ---
 title: "Timewarrior"
-lang: en
+language: en
 layout: single
 description: "A command line time-tracking utility for use as a standalone tool, or integrated with Taskwarrior."
 homepage: "https://timewarrior.net"
